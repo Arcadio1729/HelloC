@@ -1,0 +1,18 @@
+﻿<Window x:Class="DemoAsync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoAsync"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="longRun" Content="Long Run" HorizontalAlignment="Left" Height="48" Margin="34,23,0,0" VerticalAlignment="Top" Width="245" Click="LongRun_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="34,88,0,0" VerticalAlignment="Top" Width="245" Click="Button_Click"/>
+        <TextBox x:Name="infoText" HorizontalAlignment="Left" Height="215" Margin="34,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245" TextChanged="InfoText_TextChanged"/>
+        <Button x:Name="GetData1" Content="Button" HorizontalAlignment="Left" Height="113" Margin="327,23,0,0" VerticalAlignment="Top" Width="160" Click="GetData_Click"/>
+        <Button x:Name="Dispatcher" Content="Dispacz" HorizontalAlignment="Left" Height="198" Margin="327,163,0,0" VerticalAlignment="Top" Width="160" Click="Dispatcher_Click"/>
+        <Button x:Name="cancel" Content="cancel" HorizontalAlignment="Left" Height="338" Margin="523,23,0,0" VerticalAlignment="Top" Width="223" Click="Cancel_Click"/>
+
+    </Grid>
+</Window>

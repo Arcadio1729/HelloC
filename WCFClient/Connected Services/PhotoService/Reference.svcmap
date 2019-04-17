@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="91d99501-c19f-45db-a456-aab5047b047d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53248/Photos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Photos.wsdl" MetadataType="Wsdl" ID="e51fb776-4651-4998-a9ba-51a3e22d9117" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?wsdl" />
+    <MetadataFile FileName="Photos.disco" MetadataType="Disco" ID="1a89c600-84f8-4f12-8fff-0dfd044c0fbb" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?disco" />
+    <MetadataFile FileName="Photos.xsd" MetadataType="Schema" ID="f821220d-f98a-42fc-80ba-78bc70271af5" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?xsd=xsd1" />
+    <MetadataFile FileName="Photos1.xsd" MetadataType="Schema" ID="fa096c3d-4d63-4bd5-b5b9-6abd824fe8d6" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?xsd=xsd0" />
+    <MetadataFile FileName="Photos2.xsd" MetadataType="Schema" ID="a7a51d86-3525-4f5a-9974-cb59744c8cc9" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?xsd=xsd3" />
+    <MetadataFile FileName="Photos3.xsd" MetadataType="Schema" ID="67a69696-d5ba-45ec-b9e3-48b5751af6b4" SourceId="1" SourceUrl="http://localhost:53248/Photos.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
